@@ -58,9 +58,6 @@ class Graph:
                 self.panda_graph["PageRank"] = list(map(lambda n: self.PR[n][-1], nodes))
                 break
 
-        # for node in nodes:
-        #     print("node {key} : PageRank {val}".format(key=node, val=self.PR[node][-1]))
-
     def get_PageRank(self, node_name):
 
         if node_name not in self.PR:
@@ -68,7 +65,7 @@ class Graph:
         return self.PR[node_name][-1]
 
     def get_top_PageRank(self, n=1):
-        return self.panda_graph.nlargest(n, "PageRank")
+        return self.get_all_PageRank()[:n]
 
     def get_all_PageRank(self):
 
@@ -99,8 +96,36 @@ class Graph:
 
         self.panda_graph["CC (Undirected)"] = self.CC.values()
 
+    def get_CC(self, node_name):
+
+        if node_name not in self.CC:
+            return -1
+        return self.CC[node_name]
+
+    def get_top_CC(self, n):
+        return self.get_all_CC()[:n]
+
+    def get_all_CC(self):
+
+        rank = list(map(lambda raw: (raw[1],raw[4]), self.panda_graph.to_records()))
+        rank.sort(key=lambda x: x[1], reverse=True)
+        return rank
+
+    def get_average_CC(self):
+
+        vals = self.CC.values()
+        return sum(vals)/len(vals)
+
+
+
 G = Graph()
 G.load_graph("Wikipedia_votes.csv")
 G.calculate_page_rank()
 G.calculate_CC()
-print(G.panda_graph)
+print("Top PageRank: {ranks}".format(ranks = G.get_top_PageRank(5)))
+print("Top CC: {cc}".format(cc = G.get_top_CC(5)))
+print("Average CC: {avg}".format(avg =G.get_average_CC()))
+
+
+
+
