@@ -6,6 +6,7 @@ class Graph:
     def __init__(self):
 
         self.graph = {} # {source:[dest]}
+        self.rev_graph = {}
         self.PR = {}
         self.panda_graph = None
         self.CC = {}
@@ -14,7 +15,9 @@ class Graph:
 
         df = pd.read_csv(path, names=['source', 'dest'])
         self.graph = df.applymap(int).groupby('source')['dest'].apply(list).to_dict()
+        self.rev_graph = df.applymap(int).groupby('dest')['source'].apply(list).to_dict()
         self.panda_graph = pd.DataFrame(self.graph.items(), columns=['Node', 'Neighbors']).sort_values(by=['Node'])
+        self.panda_graph["Degree"] = list(map(lambda node: len(self.graph[node]), self.graph.keys()))
 
     def get_nodes(self):
         return list(self.graph.keys())
@@ -42,12 +45,10 @@ class Graph:
             t += 1
 
             for node in nodes:
-                if node == 214:
-                    pass
-                if node not in self.graph or self.degree(node) == 0:
+                try:
+                    self.PR[node].append(β * sum(map(lambda dest: devision(dest,t), self.rev_graph[node])))
+                except:
                     self.PR[node].append(0)
-                else:
-                    self.PR[node].append(β * sum(map(lambda dest: devision(dest,t), self.graph[node])))
 
             S = (1 - sum(map(lambda node: self.PR[node][t], nodes)))/N
 
@@ -56,6 +57,7 @@ class Graph:
 
             if t == maxIterations + 1 or sum(map(lambda n: abs(self.PR[n][t] - self.PR[n][t - 1]), nodes)) <= δ:
                 self.panda_graph["PageRank"] = list(map(lambda n: self.PR[n][-1], nodes))
+                print("PageRank func stop at iteration {iter}".format(iter = t))
                 break
 
     def get_PageRank(self, node_name):
@@ -125,6 +127,7 @@ G.calculate_CC()
 print("Top PageRank: {ranks}".format(ranks = G.get_top_PageRank(5)))
 print("Top CC: {cc}".format(cc = G.get_top_CC(5)))
 print("Average CC: {avg}".format(avg =G.get_average_CC()))
+print(G.panda_graph)
 
 
 
