@@ -1,6 +1,6 @@
 import pandas as pd
-from itertools import combinations
-
+import matplotlib.pyplot as plt
+import networkx as nx
 
 class Graph:
 
@@ -13,6 +13,7 @@ class Graph:
         self.CC = {}                    # {node: cc}
         self.degrees = {}               # {node : degree}
         self.nodes = []                 # [node_1, node_2,..]
+        self.edges = []                 # [(neighbors_1, neighbor_2)]
 
     def load_graph(self, path):
         """
@@ -80,7 +81,7 @@ class Graph:
         :param node_name: String, The node name
         :return: Double:, The PageRank of the given node name
         """
-        if self.PR == {} or node_name not in self.PR:
+        if node_name not in self.PR:
             return -1
         return self.PR[node_name][-1]
 
@@ -121,11 +122,11 @@ class Graph:
 
         for node in self.nodes:
             k = self.degrees[node]
-            e = sum(map(lambda pair: is_neighbors(*pair), list(combinations(self.graph[node], 2))))
+            e = sum(map(lambda neighbor: is_neighbors(*(node, neighbor)), self.graph[node]))
             if k <= 1:
                 self.CC[node] = 0
             else:
-                self.CC[node] = 2 * e / (k * (k-1))
+                self.CC[node] = e / (k * (k-1))
 
         self.panda_graph["CC (Undirected)"] = self.CC.values()
 
@@ -136,7 +137,7 @@ class Graph:
         :param node_name: String, The node name
         :return: Double, The CC of the given node name
         """
-        if self.CC == {} or node_name not in self.CC:
+        if node_name not in self.CC:
             return -1
         return self.CC[node_name]
 
@@ -160,7 +161,7 @@ class Graph:
         """
         if self.CC == {}:
             return -1
-        cc = list(map(lambda node: (node, self.CC[node][-1]), self.nodes))
+        cc = list(map(lambda node: (node, self.CC[node]), self.nodes))
         cc.sort(key=lambda x: x[1], reverse=True)
         return cc
 
@@ -174,7 +175,14 @@ class Graph:
         vals = self.CC.values()
         return sum(vals)/len(vals)
 
-
+    def plot(self):
+        for node in self.nodes:
+            self.edges += list(map(lambda neighbor: (node, neighbor), self.graph[node]))
+        print(self.edges)
+        graph_plot = nx.Graph()
+        graph_plot.add_nodes_from(self.edges)
+        nx.draw(graph_plot)
+        plt.show()
 
 G = Graph()
 G.load_graph("Wikipedia_votes.csv")
@@ -184,6 +192,7 @@ print("Top PageRank: {ranks}".format(ranks = G.get_top_page_rank(5)))
 print("Top CC: {cc}".format(cc = G.get_top_cc(5)))
 print("Average CC: {avg}".format(avg =G.get_average_cc()))
 print(G.panda_graph)
+G.plot()
 
 
 
