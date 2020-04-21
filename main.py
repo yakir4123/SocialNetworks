@@ -13,9 +13,14 @@ class Graph:
         self.CC = {}                    # {node: cc}
         self.degrees = {}               # {node : degree}
         self.nodes = []                 # [node_1, node_2,..]
-    
-    def load_graph(self, path):
 
+    def load_graph(self, path):
+        """
+        Loads a graph from a text file to the memory.
+        The csv file is given as an edge list – i.e, <source, destination> pairs of node names.
+        :param path: String, the path for the input file
+        :return: None
+        """
         df = pd.read_csv(path, names=['source', 'dest'])
         self.graph = df.applymap(int).groupby('source')['dest'].apply(list).to_dict()
         self.rev_graph = df.applymap(int).groupby('dest')['source'].apply(list).to_dict()
@@ -25,7 +30,16 @@ class Graph:
         self.nodes = list(self.graph.keys())
 
     def calculate_page_rank(self, β=0.85, δ=0.001, max_iterations=20):
-
+        """
+        Calculates the PageRank for each of the nodes in the graph.
+        The calculation will end in one of two stop conditions: after maxIterations iterations,
+        or when the difference between two iterations is smaller than δ.
+        Save the results into an internal data structure for an easy access
+        :param β: Double, defines how important the centrality of
+        :param δ: Minimal PageRank change between iterations
+        :param max_iterations: Int, maximum number of page rank iterations
+        :return: None
+        """
         all_nodes = list(set(self.nodes) - set(self.rev_graph))
         N = len(all_nodes + self.nodes)
 
@@ -60,22 +74,43 @@ class Graph:
                 break
 
     def get_page_rank(self, node_name):
-
-        if node_name not in self.PR:
+        """
+        Returns the PageRank of a specific node.
+        Return “-1” for non-existing name
+        :param node_name: String, The node name
+        :return: Double:, The PageRank of the given node name
+        """
+        if self.PR == {} or node_name not in self.PR:
             return -1
         return self.PR[node_name][-1]
 
     def get_top_page_rank(self, n=1):
+        """
+        Returns a list of n nodes with the highest PageRank value.
+        The ordered according to the PageRank values from high to low
+        :param n: Integer, How many nodes
+        :return: List of pairs: <node name, PageRank value >
+        """
         return self.get_all_page_rank()[:n]
 
     def get_all_page_rank(self):
-
+        """
+        Returns a list of the PageRank for all the nodes in the graph
+        The list should include pairs of node id, PageRank value of that node.
+        The list should be ordered according to the PageRank values from high to low
+        :return: List of pairs: <node name, PageRank value >
+        """
+        if self.PR == {}:
+            return -1
         rank = list(map(lambda node: (node, self.PR[node][-1]), self.nodes))
         rank.sort(key=lambda x: x[1], reverse=True)
         return rank
 
     def calculate_cc(self):
-
+        """
+        Calculates the (undirected) clustering coefficient of each of the nodes in the graph
+        :return: None
+        """
         def is_neighbors(node_1, node_2):
             try:
                 if node_1 in self.graph[node_2] or node_2 in self.graph[node_1]:
@@ -95,22 +130,47 @@ class Graph:
         self.panda_graph["CC (Undirected)"] = self.CC.values()
 
     def get_cc(self, node_name):
-
-        if node_name not in self.CC:
+        """
+        Returns the clustering coefficient of a specific node.
+        Return “-1” for non-existing name
+        :param node_name: String, The node name
+        :return: Double, The CC of the given node name
+        """
+        if self.CC == {} or node_name not in self.CC:
             return -1
         return self.CC[node_name]
 
     def get_top_cc(self, n):
+        """
+        Returns a list of n nodes with the highest clustering coefficients.
+        The list should be ordered according to the CC values from high to low
+        :param n: Integer, How many nodes
+        :return: List of pairs: <node name, CC value >
+        """
+        if self.CC == {}:
+            return -1
         return self.get_all_cc()[:n]
 
     def get_all_cc(self):
-
+        """
+        Returns a list of the clustering coefficients for all the nodes in the graph
+        The list should include pairs of node id, CC value of that node.
+        The list should be ordered according to the CC values from high to low
+        :return: List of pairs: <node name, CC value >
+        """
+        if self.CC == {}:
+            return -1
         cc = list(map(lambda node: (node, self.CC[node][-1]), self.nodes))
         cc.sort(key=lambda x: x[1], reverse=True)
         return cc
 
     def get_average_cc(self):
-
+        """
+        Returns a simple average over all the clustering coefficients values
+        :return: Double, average CC
+        """
+        if self.CC == {}:
+            return -1
         vals = self.CC.values()
         return sum(vals)/len(vals)
 
