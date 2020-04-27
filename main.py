@@ -22,6 +22,7 @@ class Graph:
         :param path: String, the path for the input file
         :return: None
         """
+
         df = pd.read_csv(path, names=['source', 'dest'])
         self.graph = df.applymap(int).groupby('source')['dest'].apply(list).to_dict()
         self.rev_graph = df.applymap(int).groupby('dest')['source'].apply(list).to_dict()
@@ -41,35 +42,39 @@ class Graph:
         :param max_iterations: Int, maximum number of page rank iterations
         :return: None
         """
-        all_nodes = list(set(self.nodes) - set(self.rev_graph))
-        N = len(all_nodes + self.nodes)
 
-        for node in self.nodes:
+        all_nodes = list(set(self.graph.keys()).union(set(self.rev_graph.keys())))
+        # num of nodes
+        N = len(all_nodes)
+        print("Num of nodes: " + str(N))
+
+        # reset all nodes PageRank to 1/N at time t=0
+        for node in all_nodes:  # 𝑟_𝑗(0) = 0
             self.PR[node] = [1 / N]
         t = 0
 
-        def division(dest, t):
+        def division(dest, t): # return 𝑟′𝑖(𝑡)/𝑑_𝑖
             try:
                 return self.PR[dest][t - 1] / self.degrees[dest]
             except:
                 return 0
 
         while True:
-
             t += 1
-
-            for node in self.nodes:
+            for node in all_nodes:  # 𝑟′𝑗(𝑡)_ = sum 𝑖->𝑗: (β * 𝑟′𝑖(𝑡)/𝑑_𝑖)
                 try:
                     self.PR[node].append(β * sum(map(lambda dest: division(dest, t), self.rev_graph[node])))
                 except:
                     self.PR[node].append(0)
 
-            S = (1 - sum(map(lambda node: self.PR[node][t], self.nodes)))/N
+            # (1 - sum 𝑗: 𝑟′𝑗(𝑡))/N
+            S = (1 - sum(map(lambda node: self.PR[node][-1], all_nodes)))/N
 
-            for node in self.nodes:
-                self.PR[node][t] += S
+            for node in all_nodes:
+                self.PR[node][-1] += S  # 𝑟_𝑗(𝑡) = 𝑟′𝑗(𝑡) + (1 - sum 𝑗: 𝑟′𝑗(𝑡))/N
 
-            if t == max_iterations + 1 or sum(map(lambda n: abs(self.PR[n][t] - self.PR[n][t - 1]), self.nodes)) <= δ:
+            # while sum j: 𝑟_𝑗(𝑡) - 𝑟_𝑗(𝑡 - 1) > δ or t = max_iterations
+            if t == max_iterations or sum(map(lambda n: abs(self.PR[n][-1] - self.PR[n][-2]), all_nodes)) <= δ:
                 self.panda_graph["PageRank"] = list(map(lambda n: self.PR[n][-1], self.nodes))
                 print("PageRank func stop at iteration {iter}".format(iter=t))
                 break
@@ -113,6 +118,12 @@ class Graph:
         :return: None
         """
         def is_neighbors(node_1, node_2):
+            """
+            check if node_1 and node_2 are neighbors
+            :param node_1: int, first node
+            :param node_2: int, second node
+            :return: 1 if node_1 and node_2 are neighbors, 0 else
+            """
             try:
                 if node_1 in self.graph[node_2] or node_2 in self.graph[node_1]:
                     return 1
@@ -120,15 +131,16 @@ class Graph:
             except:
                 return 0
 
-        for node in self.nodes:
+        for node in self.nodes: # 𝐶𝑖 = 𝑒_𝑖 / (|Γ_𝑖_|(|Γ_𝑖_|−1))
             k = self.degrees[node]
-            e = sum(map(lambda neighbor: is_neighbors(*(node, neighbor)), self.graph[node]))
+            e = sum(map(lambda neighbor: is_neighbors(node, neighbor), self.graph[node]))
+
             if k <= 1:
                 self.CC[node] = 0
             else:
                 self.CC[node] = e / (k * (k-1))
 
-        self.panda_graph["CC (Undirected)"] = self.CC.values()
+        self.panda_graph["CC (directed)"] = self.CC.values()
 
     def get_cc(self, node_name):
         """
@@ -181,18 +193,20 @@ class Graph:
         print(self.edges)
         graph_plot = nx.Graph()
         graph_plot.add_nodes_from(self.edges)
+        compression_opts = dict(method='zip',archive_name='got-result.csv')
+        self.panda_graph.to_csv('got-result.zip', index=False,compression=compression_opts)
         nx.draw(graph_plot)
         plt.show()
 
-G = Graph()
-G.load_graph("Wikipedia_votes.csv")
-G.calculate_page_rank()
-G.calculate_cc()
-print("Top PageRank: {ranks}".format(ranks = G.get_top_page_rank(5)))
-print("Top CC: {cc}".format(cc = G.get_top_cc(5)))
-print("Average CC: {avg}".format(avg =G.get_average_cc()))
-print(G.panda_graph)
-G.plot()
+# G = Graph()
+# G.load_graph("GOT.csv")
+# G.calculate_page_rank()
+# G.calculate_cc()
+# print("Top PageRank: {ranks}".format(ranks = G.get_top_page_rank(10)))
+# print("Top CC: {cc}".format(cc = G.get_top_cc(10)))
+# print("Average CC: {avg}".format(avg =G.get_average_cc()))
+# print(G.panda_graph)
+# G.plot()
 
 
 
