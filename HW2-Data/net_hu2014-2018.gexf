@@ -1,0 +1,3046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2015-12-26">
+    <creator>rgexf</creator>
+    <description>legislative cosponsorship network, fruchtermanreingold placement, 183 bills</description>
+    <keywords>parliament, hungary</keywords>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node" mode="static">
+      <attribute id="att1" title="url" type="string"/>
+      <attribute id="att2" title="party" type="string"/>
+      <attribute id="att3" title="constituency" type="string"/>
+      <attribute id="att4" title="n_bills" type="float"/>
+      <attribute id="att5" title="photo" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="1" label="Ádám Mirkóczki">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m057"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/m057.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="34.3" y="-39.2" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="2" label="Ágnes Kunhalmi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k762"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/k762.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-9.4" y="-3.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="3" label="Ágnes Molnár">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m039"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/m039.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-26.6" y="-76.8" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="4" label="Ágnes Vadai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v013"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/v013.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-50.1" y="-11.3" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="5" label="Ákos Kara">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k098"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Győr-Moson-Sopron_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/k098.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-16.7" y="-79" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="6" label="Alpár Gyopáros">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g048"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Győr-Moson-Sopron_megye"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/g048.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-32.2" y="-66.7" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="7" label="András Aradszki">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=a016"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/a016.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-5.8" y="-62.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="8" label="András Schiffer">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s100"/>
+          <attvalue for="att2" value="Lehet Más a Politika"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="22"/>
+          <attvalue for="att5" value="photos/s100.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="13.5" y="-13.7" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="9" label="András Tállai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t002"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Borsod-Abaúj-Zemplén_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/t002.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-16.4" y="-76.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="10" label="Anita Heringes">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h742"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="14"/>
+          <attvalue for="att5" value="photos/h742.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-15.4" y="-15.8" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="11" label="Antal Rogán">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=r008"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/r008.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-22.7" y="-52.8" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="12" label="Árpád Velez">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v041"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/v041.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-20.5" y="-0.6" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="13" label="Attila Gelencsér">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g049"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Somogy_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/g049.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-35.7" y="-54.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="14" label="Attila József Móring">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m028"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Somogy_megye"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/m028.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-11.7" y="-54.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="15" label="Attila Mesterházy">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m026"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/m026.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-16.9" y="-10.1" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="16" label="Attila Petneházy">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=p609"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Szabolcs-Szatmár-Bereg_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/p609.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-22.5" y="-79.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="17" label="Attila Szabolcs">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s770"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/s770.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-25.4" y="-48.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="18" label="Attila Tamás Harangozó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h056"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="18"/>
+          <attvalue for="att5" value="photos/h056.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-12.7" y="-11.1" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="19" label="Attila Tilki">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t023"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Szabolcs-Szatmár-Bereg_megye"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/t023.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-21.5" y="-48.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="20" label="Balázs Ander">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=a716"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/a716.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="27.8" y="-31.9" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="21" label="Balázs Győrffy">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g057"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/g057.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-21.2" y="-73.3" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="22" label="Balázs Róbert Simon">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s774"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Győr-Moson-Sopron_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/s774.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-36.7" y="-56.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="23" label="Béla Dankó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=d030"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Békés_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/d030.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-10.8" y="-75.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="24" label="Béla Turi-Kovács">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t004"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/t004.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-13.9" y="-72.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="25" label="Bence Rétvári">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=r023"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/r023.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-12.7" y="-53.7" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="26" label="Bence Tuzson">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t687"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="11"/>
+          <attvalue for="att5" value="photos/t687.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-31.8" y="-51.2" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="27" label="Benedek R. Sallai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s768"/>
+          <attvalue for="att2" value="Lehet Más a Politika"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="13"/>
+          <attvalue for="att5" value="photos/s768.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="11.6" y="-7.9" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="28" label="Bernadett Szél">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s136"/>
+          <attvalue for="att2" value="Lehet Más a Politika"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="22"/>
+          <attvalue for="att5" value="photos/s136.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="14.3" y="-8.8" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="29" label="Bertalan Tóth">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t025"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="21"/>
+          <attvalue for="att5" value="photos/t025.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-22.5" y="-11.4" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="30" label="Csaba Gyüre">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g060"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/g060.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="34.5" y="-34.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="31" label="Csaba Hende">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h021"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Vas_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/h021.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-27.2" y="-71.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="32" label="Csaba Tóth">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t045"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="12"/>
+          <attvalue for="att5" value="photos/t045.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-24.5" y="-4.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="33" label="Dániel Kárpát Z.">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=z012"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/z012.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="26.4" y="-42.1" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="34" label="Dénes Galambos">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g741"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Fejér_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/g741.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-23.1" y="-58.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="35" label="Dezső Hiszékeny">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h743"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/h743.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-13.4" y="-1.5" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="36" label="Dóra Dúró">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=d028"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/d028.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="31.9" y="-20.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="37" label="Előd Novák">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=n036"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/n036.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="28.7" y="-40.5" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="38" label="Erik Bánki">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b009"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="14"/>
+          <attvalue for="att5" value="photos/b009.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-21.4" y="-51.1" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="39" label="Erzsébet Schmuck">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s769"/>
+          <attvalue for="att2" value="Lehet Más a Politika"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="12"/>
+          <attvalue for="att5" value="photos/s769.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="5.6" y="-15.4" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="40" label="Ferenc Gyurcsány">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g030"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/g030.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-53.5" y="-15.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="41" label="Ferenc Hirt">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h038"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Tolna_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/h038.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-12.1" y="-76" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="42" label="Ferenc Papcsák">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=p022"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/p022.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-28.4" y="-41.7" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="43" label="Flórián Farkas">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=f015"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/f015.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-18.1" y="-62.5" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="44" label="Gábor Bányai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b053"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Bács-Kiskun_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/b053.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-38.8" y="-65.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="45" label="Gábor Kubatov">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k072"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/k072.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-12.6" y="-52.6" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="46" label="Gábor Riz">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=r027"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Borsod-Abaúj-Zemplén_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/r027.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-19.2" y="-51.7" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="47" label="Gábor Staudt">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s109"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="11"/>
+          <attvalue for="att5" value="photos/s109.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="26.5" y="-36" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="48" label="Gábor Törő">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t036"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Fejér_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/t036.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-31.6" y="-76" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="49" label="Gábor Varga">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v048"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Fejér_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/v048.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-10.3" y="-74.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="50" label="Gábor Vona">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v058"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="12"/>
+          <attvalue for="att5" value="photos/v058.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="26.3" y="-37.5" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="51" label="Gábor Zombor">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=z008"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Bács-Kiskun_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/z008.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-7.3" y="-70.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="52" label="Gabriella Selmeczi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s322"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/s322.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-23.6" y="-48.2" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="53" label="Gergely Bárándy">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b055"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="16"/>
+          <attvalue for="att5" value="photos/b055.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-9.3" y="-24.1" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="54" label="Gergely Farkas">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=f028"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/f028.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="32.3" y="-27.6" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="55" label="Gergely Gulyás">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g053"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="14"/>
+          <attvalue for="att5" value="photos/g053.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-24.3" y="-53.6" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="56" label="Gergely Kulcsár">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k115"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/k115.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="34.5" y="-45.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="57" label="Gergely Tapolczai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t044"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/t044.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-20.1" y="-74.7" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="58" label="Gordon Bajnai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b063"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/b063.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-65.3" y="-21.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="59" label="György Balla">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b007"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="11"/>
+          <attvalue for="att5" value="photos/b007.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-27.6" y="-57.6" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="60" label="György Czerván">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=c003"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/c003.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-37.2" y="-69.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="61" label="György László Lukács">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=l042"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/l042.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="9.4" y="-29.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="62" label="György Rubovszky">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=r315"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/r315.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-9" y="-51.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="63" label="György Simonka">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s106"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Békés_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/s106.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-37.2" y="-62.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="64" label="György Szilágyi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s118"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/s118.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="23" y="-42.3" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="65" label="Győző Vinnai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v056"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Szabolcs-Szatmár-Bereg_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/v056.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-20.3" y="-79.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="66" label="Gyula Budai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b076"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/b076.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-34.4" y="-68.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="67" label="Gyula Vantara">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v043"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Békés_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/v043.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-22.1" y="-63.8" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="68" label="Ildikó Bene">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=j012"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Jász-Nagykun-Szolnok_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/j012.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-27.6" y="-78.3" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="69" label="Ildikó Borbély Bangóné">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b763"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="15"/>
+          <attvalue for="att5" value="photos/b763.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-8.3" y="-12.3" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="70" label="Imre Horváth">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h077"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/h077.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-7.7" y="-1.7" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="71" label="Imre Pesti">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=p032"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/p032.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-33.4" y="-52.2" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="72" label="Imre Vas">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v054"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="20"/>
+          <attvalue for="att5" value="photos/v054.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-28.2" y="-54.9" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="73" label="Imre Vejkey">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v055"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/v055.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-14.8" y="-45.7" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="74" label="István Apáti">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=a018"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/a018.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="23.4" y="-38" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="75" label="István Boldog">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b091"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Jász-Nagykun-Szolnok_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/b091.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-9.1" y="-55" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="76" label="István Gábor Harangozó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h033"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="18"/>
+          <attvalue for="att5" value="photos/h033.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-13.2" y="-16.1" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="77" label="István Hiller">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h026"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/h026.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-5.8" y="-3.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="78" label="István Hollik">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h078"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/h078.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-36.4" y="-70.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="79" label="István Horváth">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h042"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Tolna_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/h042.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-38" y="-60.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="80" label="István Ikotity">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=i731"/>
+          <attvalue for="att2" value="Lehet Más a Politika"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="10"/>
+          <attvalue for="att5" value="photos/i731.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="15.7" y="-12.3" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="81" label="István Jakab">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=j010"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/j010.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-22.3" y="-77.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="82" label="István Józsa">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=j005"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/j005.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-8.8" y="-14.9" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="83" label="István Nagy">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=n031"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Győr-Moson-Sopron_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/n031.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-30.8" y="-72.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="84" label="István Simicskó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s011"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/s011.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-13.9" y="-53" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="85" label="István Szávay">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s115"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/s115.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="19.8" y="-33.5" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="86" label="István Szilárd Németh">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=n020"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="10"/>
+          <attvalue for="att5" value="photos/n020.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-31.9" y="-59.4" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="87" label="István Tiba">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t017"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Hajdú-Bihar_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/t017.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-13.5" y="-61.7" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="88" label="István Tukacs">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t028"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/t028.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-25.2" y="-7.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="89" label="István Vitányi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v008"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Hajdú-Bihar_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/v008.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-30.3" y="-52" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="90" label="János Árpád Potápi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=p009"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Tolna_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/p009.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-30.9" y="-76.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="91" label="János Bencsik">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b034"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Komárom-Esztergom_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/b034.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-34.2" y="-72.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="92" label="János Fónagy">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=f006"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/f006.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-20.8" y="-62.4" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="93" label="János Halász">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h004"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/h004.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-38" y="-60.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="94" label="János Hargitai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h006"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Baranya_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/h006.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-6.2" y="-62" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="95" label="János Kerényi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k012"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/k012.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-7.3" y="-56.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="96" label="János Latorcai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=l001"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/l001.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-7" y="-67" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="97" label="János Lázár">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=l016"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Csongrád_megye"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/l016.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-16.3" y="-54.6" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="98" label="János Pócs">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=p041"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Jász-Nagykun-Szolnok_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/p041.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-37.7" y="-63" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="99" label="János Volner">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v057"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/v057.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="25.7" y="-44.6" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="100" label="Jenő Manninger">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m014"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Zala_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/m014.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-7.8" y="-55.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="101" label="József Kovács">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k093"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Békés_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/k093.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-15.6" y="-78" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="102" label="József Tóbiás">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t005"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="24"/>
+          <attvalue for="att5" value="photos/t005.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-14.6" y="-9.3" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="103" label="József Varga">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v021"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/v021.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-32.5" y="-61.4" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="104" label="Judit Bertalan">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=c029"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Komárom-Esztergom_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/c029.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-19.6" y="-48.7" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="105" label="Károly Kontrát">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k029"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Veszprém_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/k029.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-16.3" y="-74.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="106" label="Károly Pánczél">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=p003"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/p003.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-8.2" y="-72.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="107" label="Katalin Csöbör">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=c030"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Borsod-Abaúj-Zemplén_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/c030.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-35.6" y="-61.9" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="108" label="Kristóf Szatmáry">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s070"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="10"/>
+          <attvalue for="att5" value="photos/s070.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-28.3" y="-51" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="109" label="Lajos Kepli">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k107"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/k107.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="36.8" y="-32.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="110" label="Lajos Korózs">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k254"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/k254.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-5" y="-6.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="111" label="Lajos Kósa">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k325"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Hajdú-Bihar_megye"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/k325.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-34.2" y="-54.1" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="112" label="Lajos Oláh">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=o007"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/o007.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-56.1" y="-20.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="113" label="Lajos Rig">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=r038"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Veszprém_megye"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="28.8" y="-15.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="114" label="Lajos Szűcs">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s038"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/s038.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-8.7" y="-47.7" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="115" label="László Botka">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b164"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/b164.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-30.1" y="-5.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="116" label="László Földi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=f026"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/f026.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-5.6" y="-63.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="117" label="László Horváth">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h366"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Heves_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/h366.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-21.5" y="-74.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="118" label="László Kiss">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k764"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/k764.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-22.7" y="-7.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="119" label="László Kövér">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k308"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/k308.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-8.7" y="-71.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="120" label="László Kucsák">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k113"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/k113.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-33.7" y="-54" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="121" label="László Nagy B.">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b078"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Csongrád_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/b078.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-37.4" y="-67.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="122" label="László Pósán">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=p012"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Hajdú-Bihar_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/p012.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-34.3" y="-74.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="123" label="László Salacz">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s772"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Bács-Kiskun_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/s772.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-35.6" y="-70.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="124" label="László Simon L.">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=l032"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/l032.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-7.1" y="-59.5" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="125" label="László Szakács">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s068"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/s068.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-11.5" y="-25.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="126" label="László Szászfalvi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s013"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Somogy_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/s013.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-8.5" y="-65.3" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="127" label="László Tasó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t021"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Hajdú-Bihar_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/t021.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-8.4" y="-57.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="128" label="László Teleki">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t012"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/t012.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-12" y="0" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="129" label="László Varga">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v032"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Borsod-Abaúj-Zemplén_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/v032.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-13.9" y="2.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="130" label="László Varju">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v018"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/v018.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-54.6" y="-10.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="131" label="László Vécsey">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v044"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/v044.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-31.1" y="-51.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="132" label="László Vigh">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v038"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Zala_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/v038.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-37" y="-57.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="133" label="Lorántné Hegedűs">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h057"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/h057.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="15.3" y="-42.8" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="134" label="Máriusz Révész">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=r005"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/r005.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-37.9" y="-65.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="135" label="Márk Bíró">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b089"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/b089.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-35.4" y="-55.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="136" label="Márta Demeter">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=d750"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="11"/>
+          <attvalue for="att5" value="photos/d750.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-7.4" y="-13.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="137" label="Márta Mátrai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m006"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/m006.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-22.5" y="-79.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="138" label="Márton Gyöngyösi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g056"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/g056.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="24.5" y="-48.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="139" label="Mátyás Firtl">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=f019"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Győr-Moson-Sopron_megye"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/f019.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-22" y="-63.7" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="140" label="Mihály Balla">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b008"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Nógrád_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/b008.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-10.3" y="-70.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="141" label="Mihály Varga">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v331"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/v331.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-30.2" y="-49.5" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="142" label="Mihály Witzmann">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=w704"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Somogy_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/w704.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-7" y="-57.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="143" label="Miklós Seszták">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s093"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Szabolcs-Szatmár-Bereg_megye"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/s093.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-11.9" y="-61.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="144" label="Miklós Simon">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s012"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Szabolcs-Szatmár-Bereg_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/s012.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-30.2" y="-74.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="145" label="Miklós Soltész">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s051"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/s051.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-6.3" y="-63.4" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="146" label="Mónika Bartos">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b087"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/b087.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-7.2" y="-69.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="147" label="Mónika Dunai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=d751"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/d751.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-27.6" y="-51.7" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="148" label="Nándor Gúr">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g023"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/g023.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-14.2" y="-9.2" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="149" label="Pál Völner">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v046"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Komárom-Esztergom_megye"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/v046.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-16.7" y="-44.8" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="150" label="Péter Ágh">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=a011"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Vas_megye"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/a011.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-21" y="-67" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="151" label="Péter Cseresnyés">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=c014"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Zala_megye"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/c014.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-29.4" y="-49.7" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="152" label="Péter Csizi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=c032"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Baranya_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/c032.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-22.5" y="-48.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="153" label="Péter Harrach">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h007"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/h007.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-19.6" y="-55.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="154" label="Péter Hoppál">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h050"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Baranya_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/h050.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-38.9" y="-62.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="155" label="Péter Kónya">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k763"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/k763.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-60.8" y="-19.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="156" label="Péter Szijjártó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s054"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/s054.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-18.1" y="-78.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="157" label="Richárd Hörcsik">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h275"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Borsod-Abaúj-Zemplén_megye"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/h275.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-26.5" y="-58.5" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="158" label="Róbert Répássy">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=u002"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/u002.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-28.8" y="-62.5" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="159" label="Róbert Zsigó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=z004"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Bács-Kiskun_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/z004.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-23.4" y="-78.8" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="160" label="Roland Mengyi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m056"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Borsod-Abaúj-Zemplén_megye"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/m056.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-32.2" y="-55" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="161" label="Rózsa Hoffmann">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h040"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/h040.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-6" y="-65" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="162" label="Sándor Bodó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b103"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Hajdú-Bihar_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/b103.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-17.5" y="-49.5" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="163" label="Sándor Burány">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b166"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/b166.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-22.8" y="-2.4" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="164" label="Sándor Czomba">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=c025"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/c025.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-13" y="-76.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="165" label="Sándor Farkas">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=f001"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Csongrád_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/f001.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-29.6" y="-76.8" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="166" label="Sándor Fazekas">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=f002"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Jász-Nagykun-Szolnok_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/f002.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-38.4" y="-67.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="167" label="Sándor Font">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=f010"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Bács-Kiskun_megye"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/f010.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-28.4" y="-48.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="168" label="Sándor Hadházy">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=h003"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/h003.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-14.5" y="-77.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="169" label="Sándor Kovács">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k765"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Szabolcs-Szatmár-Bereg_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/k765.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-8.3" y="-73.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="170" label="Sándor Lezsák">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=l269"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Bács-Kiskun_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/l269.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-6.5" y="-69.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="171" label="Sándor Szabó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s773"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Csongrád_megye"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/s773.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-20.6" y="-4.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="172" label="Sebestyén Vágó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v050"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/v050.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="36.9" y="-39.5" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="173" label="Szabolcs Szabó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s771"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/s771.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-65.5" y="-25.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="174" label="Tamás László">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=l026"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Budapest"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/l026.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-14.4" y="-50.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="175" label="Tamás Sneider">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s107"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/s107.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="22.6" y="-36.1" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="176" label="Tamás Vargha">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=v045"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Fejér_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/v045.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-9.4" y="-61.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="177" label="Tibor Bana">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b084"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/b084.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="36.3" y="-42.3" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="178" label="Tibor Pogácsás">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=p006"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/p006.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-33.6" y="-74.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="179" label="Timea Szabó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s113"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/s113.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-63.5" y="-16" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="180" label="Viktor Orbán">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=o320"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/o320.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-20.3" y="-54.8" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="181" label="Zoltán Balczó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b022"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/b022.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="30.7" y="-26.2" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="182" label="Zoltán Balog">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b052"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/b052.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-28.3" y="-77.3" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="183" label="Zoltán Bóna">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b764"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/b764.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-35.1" y="-73.3" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="184" label="Zoltán Demeter">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=d026"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Borsod-Abaúj-Zemplén_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/d026.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-18.7" y="-78.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="185" label="Zoltán Gőgös">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=g020"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-21.4" y="-13.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="186" label="Zoltán Kovács">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=k018"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Veszprém_megye"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/k018.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-8.9" y="-62" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="187" label="Zoltán Lukács">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=l029"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="19"/>
+          <attvalue for="att5" value="photos/l029.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-7.2" y="-6.6" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="188" label="Zoltán Magyar">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m051"/>
+          <attvalue for="att2" value="Jobbik Magyarországért Mozgalom"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/m051.jpg"/>
+        </attvalues>
+        <viz:color r="68" g="68" b="68" a="0.5"/>
+        <viz:position x="26.5" y="-47.2" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="189" label="Zoltán Tessely">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t038"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Fejér_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/t038.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-11.9" y="-72.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="190" label="Zsolt Becsó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=b013"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Nógrád_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/b013.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-20.4" y="-78.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="191" label="Zsolt Csenger-Zalán">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=c028"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Pest_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/c028.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-25.6" y="-78.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="192" label="Zsolt Legény">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=l027"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="15"/>
+          <attvalue for="att5" value="photos/l027.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-17.3" y="-16.6" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="193" label="Zsolt Molnár">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=m037"/>
+          <attvalue for="att2" value="Magyar Szocialista Párt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/m037.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-17.8" y="1.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="194" label="Zsolt Németh">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=n322"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/n322.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-18" y="-48.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="195" label="Zsolt Németh V.">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=n004"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Vas_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/n004.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-9.1" y="-74.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="196" label="Zsolt Nyitrai">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=n018"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Heves_megye"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/n018.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-21.1" y="-78.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="197" label="Zsolt Semjén">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s323"/>
+          <attvalue for="att2" value="Kereszténydemokrata Néppárt"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/s323.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-10.9" y="-58" z="1"/>
+        <viz:size value="4"/>
+      </node>
+      <node id="198" label="Zsolt Szabó">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s124"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Heves_megye"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/s124.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-35.9" y="-72" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="199" label="Zsolt Tiffán">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=t037"/>
+          <attvalue for="att2" value="Fidesz – Magyar Polgári Szövetség"/>
+          <attvalue for="att3" value="Baranya_megye"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/t037.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="127" b="0" a="0.5"/>
+        <viz:position x="-37.1" y="-59" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="200" label="Zsuzsanna Szelényi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.parlament.hu/internet/cplsql/ogy_kpv.kepv_adat?p_azon=s357"/>
+          <attvalue for="att2" value="independent"/>
+          <attvalue for="att3" value="Magyarország"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/s357.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="-65.3" y="-28.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="172" target="1" weight="1"/>
+      <edge id="1" source="47" target="1" weight="1"/>
+      <edge id="2" source="177" target="1" weight="1"/>
+      <edge id="3" source="69" target="2" weight="1"/>
+      <edge id="4" source="128" target="2" weight="1"/>
+      <edge id="5" source="130" target="4" weight="2"/>
+      <edge id="6" source="27" target="8" weight="3"/>
+      <edge id="7" source="80" target="8" weight="3"/>
+      <edge id="8" source="39" target="8" weight="5"/>
+      <edge id="9" source="28" target="8" weight="6"/>
+      <edge id="10" source="72" target="11" weight="3"/>
+      <edge id="11" source="114" target="11" weight="1"/>
+      <edge id="12" source="38" target="11" weight="2"/>
+      <edge id="13" source="84" target="11" weight="2"/>
+      <edge id="14" source="14" target="11" weight="1"/>
+      <edge id="15" source="149" target="11" weight="1"/>
+      <edge id="16" source="26" target="11" weight="4"/>
+      <edge id="17" source="120" target="11" weight="2"/>
+      <edge id="18" source="111" target="11" weight="2"/>
+      <edge id="19" source="174" target="11" weight="2"/>
+      <edge id="20" source="108" target="11" weight="1"/>
+      <edge id="21" source="139" target="11" weight="1"/>
+      <edge id="22" source="194" target="11" weight="1"/>
+      <edge id="23" source="153" target="11" weight="2"/>
+      <edge id="24" source="141" target="11" weight="1"/>
+      <edge id="25" source="71" target="11" weight="1"/>
+      <edge id="26" source="17" target="11" weight="1"/>
+      <edge id="27" source="25" target="11" weight="1"/>
+      <edge id="28" source="167" target="11" weight="1"/>
+      <edge id="29" source="55" target="11" weight="3"/>
+      <edge id="30" source="43" target="11" weight="1"/>
+      <edge id="31" source="152" target="11" weight="1"/>
+      <edge id="32" source="59" target="11" weight="1"/>
+      <edge id="33" source="42" target="11" weight="2"/>
+      <edge id="34" source="86" target="11" weight="5"/>
+      <edge id="35" source="147" target="11" weight="2"/>
+      <edge id="36" source="92" target="11" weight="1"/>
+      <edge id="37" source="45" target="11" weight="1"/>
+      <edge id="38" source="103" target="11" weight="1"/>
+      <edge id="39" source="2" target="15" weight="4"/>
+      <edge id="40" source="32" target="15" weight="4"/>
+      <edge id="41" source="102" target="15" weight="4"/>
+      <edge id="42" source="82" target="15" weight="4"/>
+      <edge id="43" source="88" target="15" weight="4"/>
+      <edge id="44" source="53" target="15" weight="2"/>
+      <edge id="45" source="12" target="15" weight="4"/>
+      <edge id="46" source="163" target="15" weight="4"/>
+      <edge id="47" source="192" target="15" weight="4"/>
+      <edge id="48" source="115" target="15" weight="4"/>
+      <edge id="49" source="10" target="15" weight="4"/>
+      <edge id="50" source="187" target="15" weight="4"/>
+      <edge id="51" source="76" target="15" weight="4"/>
+      <edge id="52" source="69" target="15" weight="4"/>
+      <edge id="53" source="118" target="15" weight="4"/>
+      <edge id="54" source="171" target="15" weight="3"/>
+      <edge id="55" source="35" target="15" weight="4"/>
+      <edge id="56" source="18" target="15" weight="4"/>
+      <edge id="57" source="136" target="15" weight="4"/>
+      <edge id="58" source="29" target="15" weight="4"/>
+      <edge id="59" source="70" target="18" weight="1"/>
+      <edge id="60" source="110" target="18" weight="1"/>
+      <edge id="61" source="29" target="18" weight="1"/>
+      <edge id="62" source="76" target="18" weight="1"/>
+      <edge id="63" source="136" target="18" weight="1"/>
+      <edge id="64" source="148" target="18" weight="1"/>
+      <edge id="65" source="125" target="18" weight="1"/>
+      <edge id="66" source="77" target="18" weight="1"/>
+      <edge id="67" source="35" target="18" weight="1"/>
+      <edge id="68" source="185" target="18" weight="1"/>
+      <edge id="69" source="82" target="18" weight="1"/>
+      <edge id="70" source="171" target="18" weight="1"/>
+      <edge id="71" source="10" target="18" weight="1"/>
+      <edge id="72" source="128" target="18" weight="1"/>
+      <edge id="73" source="118" target="18" weight="1"/>
+      <edge id="74" source="192" target="18" weight="1"/>
+      <edge id="75" source="187" target="18" weight="1"/>
+      <edge id="76" source="53" target="18" weight="1"/>
+      <edge id="77" source="149" target="19" weight="1"/>
+      <edge id="78" source="81" target="21" weight="1"/>
+      <edge id="79" source="72" target="26" weight="1"/>
+      <edge id="80" source="8" target="27" weight="1"/>
+      <edge id="81" source="28" target="27" weight="1"/>
+      <edge id="82" source="27" target="28" weight="3"/>
+      <edge id="83" source="8" target="28" weight="7"/>
+      <edge id="84" source="10" target="29" weight="2"/>
+      <edge id="85" source="102" target="29" weight="2"/>
+      <edge id="86" source="6" target="31" weight="1"/>
+      <edge id="87" source="150" target="31" weight="2"/>
+      <edge id="88" source="1" target="33" weight="1"/>
+      <edge id="89" source="37" target="33" weight="1"/>
+      <edge id="90" source="74" target="33" weight="1"/>
+      <edge id="91" source="175" target="33" weight="1"/>
+      <edge id="92" source="64" target="33" weight="1"/>
+      <edge id="93" source="188" target="33" weight="1"/>
+      <edge id="94" source="113" target="36" weight="1"/>
+      <edge id="95" source="54" target="36" weight="1"/>
+      <edge id="96" source="177" target="37" weight="1"/>
+      <edge id="97" source="47" target="37" weight="1"/>
+      <edge id="98" source="188" target="37" weight="1"/>
+      <edge id="99" source="64" target="37" weight="1"/>
+      <edge id="100" source="175" target="37" weight="1"/>
+      <edge id="101" source="56" target="37" weight="1"/>
+      <edge id="102" source="99" target="37" weight="1"/>
+      <edge id="103" source="74" target="37" weight="1"/>
+      <edge id="104" source="30" target="37" weight="1"/>
+      <edge id="105" source="172" target="37" weight="2"/>
+      <edge id="106" source="133" target="37" weight="1"/>
+      <edge id="107" source="20" target="37" weight="1"/>
+      <edge id="108" source="34" target="38" weight="1"/>
+      <edge id="109" source="151" target="38" weight="2"/>
+      <edge id="110" source="46" target="38" weight="1"/>
+      <edge id="111" source="55" target="38" weight="1"/>
+      <edge id="112" source="72" target="38" weight="1"/>
+      <edge id="113" source="131" target="38" weight="2"/>
+      <edge id="114" source="114" target="38" weight="1"/>
+      <edge id="115" source="27" target="39" weight="1"/>
+      <edge id="116" source="28" target="39" weight="1"/>
+      <edge id="117" source="8" target="39" weight="3"/>
+      <edge id="118" source="112" target="40" weight="4"/>
+      <edge id="119" source="130" target="40" weight="4"/>
+      <edge id="120" source="4" target="40" weight="5"/>
+      <edge id="121" source="30" target="47" weight="1"/>
+      <edge id="122" source="64" target="47" weight="1"/>
+      <edge id="123" source="99" target="47" weight="1"/>
+      <edge id="124" source="33" target="47" weight="1"/>
+      <edge id="125" source="85" target="47" weight="1"/>
+      <edge id="126" source="74" target="47" weight="1"/>
+      <edge id="127" source="177" target="50" weight="1"/>
+      <edge id="128" source="64" target="50" weight="1"/>
+      <edge id="129" source="54" target="50" weight="1"/>
+      <edge id="130" source="61" target="50" weight="2"/>
+      <edge id="131" source="133" target="50" weight="1"/>
+      <edge id="132" source="47" target="50" weight="2"/>
+      <edge id="133" source="56" target="50" weight="1"/>
+      <edge id="134" source="74" target="50" weight="2"/>
+      <edge id="135" source="1" target="50" weight="4"/>
+      <edge id="136" source="138" target="50" weight="2"/>
+      <edge id="137" source="33" target="50" weight="5"/>
+      <edge id="138" source="30" target="50" weight="1"/>
+      <edge id="139" source="20" target="50" weight="1"/>
+      <edge id="140" source="172" target="50" weight="1"/>
+      <edge id="141" source="109" target="50" weight="1"/>
+      <edge id="142" source="188" target="50" weight="1"/>
+      <edge id="143" source="37" target="50" weight="5"/>
+      <edge id="144" source="147" target="52" weight="1"/>
+      <edge id="145" source="149" target="52" weight="1"/>
+      <edge id="146" source="38" target="52" weight="2"/>
+      <edge id="147" source="61" target="53" weight="1"/>
+      <edge id="148" source="10" target="53" weight="1"/>
+      <edge id="149" source="73" target="53" weight="1"/>
+      <edge id="150" source="69" target="53" weight="1"/>
+      <edge id="151" source="192" target="53" weight="1"/>
+      <edge id="152" source="136" target="53" weight="1"/>
+      <edge id="153" source="76" target="53" weight="1"/>
+      <edge id="154" source="82" target="53" weight="1"/>
+      <edge id="155" source="39" target="53" weight="1"/>
+      <edge id="156" source="149" target="53" weight="1"/>
+      <edge id="157" source="36" target="54" weight="1"/>
+      <edge id="158" source="17" target="55" weight="1"/>
+      <edge id="159" source="160" target="55" weight="1"/>
+      <edge id="160" source="26" target="55" weight="1"/>
+      <edge id="161" source="72" target="55" weight="3"/>
+      <edge id="162" source="167" target="55" weight="1"/>
+      <edge id="163" source="147" target="55" weight="1"/>
+      <edge id="164" source="59" target="55" weight="1"/>
+      <edge id="165" source="196" target="57" weight="2"/>
+      <edge id="166" source="155" target="58" weight="3"/>
+      <edge id="167" source="179" target="58" weight="3"/>
+      <edge id="168" source="173" target="58" weight="3"/>
+      <edge id="169" source="160" target="59" weight="1"/>
+      <edge id="170" source="55" target="59" weight="1"/>
+      <edge id="171" source="86" target="59" weight="1"/>
+      <edge id="172" source="131" target="59" weight="1"/>
+      <edge id="173" source="38" target="59" weight="1"/>
+      <edge id="174" source="6" target="59" weight="2"/>
+      <edge id="175" source="75" target="67" weight="1"/>
+      <edge id="176" source="5" target="67" weight="1"/>
+      <edge id="177" source="81" target="67" weight="1"/>
+      <edge id="178" source="123" target="67" weight="1"/>
+      <edge id="179" source="167" target="67" weight="1"/>
+      <edge id="180" source="117" target="67" weight="1"/>
+      <edge id="181" source="87" target="67" weight="1"/>
+      <edge id="182" source="17" target="67" weight="1"/>
+      <edge id="183" source="108" target="67" weight="1"/>
+      <edge id="184" source="116" target="67" weight="1"/>
+      <edge id="185" source="127" target="67" weight="1"/>
+      <edge id="186" source="22" target="67" weight="1"/>
+      <edge id="187" source="66" target="67" weight="1"/>
+      <edge id="188" source="49" target="67" weight="1"/>
+      <edge id="189" source="24" target="67" weight="1"/>
+      <edge id="190" source="119" target="67" weight="1"/>
+      <edge id="191" source="13" target="67" weight="1"/>
+      <edge id="192" source="68" target="67" weight="1"/>
+      <edge id="193" source="154" target="67" weight="1"/>
+      <edge id="194" source="86" target="67" weight="1"/>
+      <edge id="195" source="140" target="67" weight="1"/>
+      <edge id="196" source="189" target="67" weight="1"/>
+      <edge id="197" source="141" target="67" weight="1"/>
+      <edge id="198" source="144" target="67" weight="1"/>
+      <edge id="199" source="142" target="67" weight="1"/>
+      <edge id="200" source="146" target="67" weight="1"/>
+      <edge id="201" source="3" target="67" weight="1"/>
+      <edge id="202" source="180" target="67" weight="1"/>
+      <edge id="203" source="100" target="67" weight="1"/>
+      <edge id="204" source="101" target="67" weight="1"/>
+      <edge id="205" source="79" target="67" weight="1"/>
+      <edge id="206" source="52" target="67" weight="1"/>
+      <edge id="207" source="84" target="67" weight="1"/>
+      <edge id="208" source="122" target="67" weight="1"/>
+      <edge id="209" source="131" target="67" weight="1"/>
+      <edge id="210" source="60" target="67" weight="1"/>
+      <edge id="211" source="170" target="67" weight="1"/>
+      <edge id="212" source="104" target="67" weight="1"/>
+      <edge id="213" source="152" target="67" weight="1"/>
+      <edge id="214" source="132" target="67" weight="1"/>
+      <edge id="215" source="157" target="67" weight="1"/>
+      <edge id="216" source="31" target="67" weight="1"/>
+      <edge id="217" source="143" target="67" weight="1"/>
+      <edge id="218" source="63" target="67" weight="1"/>
+      <edge id="219" source="197" target="67" weight="1"/>
+      <edge id="220" source="55" target="67" weight="1"/>
+      <edge id="221" source="97" target="67" weight="1"/>
+      <edge id="222" source="159" target="67" weight="1"/>
+      <edge id="223" source="93" target="67" weight="1"/>
+      <edge id="224" source="34" target="67" weight="1"/>
+      <edge id="225" source="72" target="67" weight="1"/>
+      <edge id="226" source="44" target="67" weight="1"/>
+      <edge id="227" source="11" target="67" weight="1"/>
+      <edge id="228" source="48" target="67" weight="1"/>
+      <edge id="229" source="149" target="67" weight="1"/>
+      <edge id="230" source="78" target="67" weight="1"/>
+      <edge id="231" source="41" target="67" weight="1"/>
+      <edge id="232" source="21" target="67" weight="1"/>
+      <edge id="233" source="126" target="67" weight="1"/>
+      <edge id="234" source="92" target="67" weight="1"/>
+      <edge id="235" source="151" target="67" weight="1"/>
+      <edge id="236" source="184" target="67" weight="1"/>
+      <edge id="237" source="195" target="67" weight="1"/>
+      <edge id="238" source="65" target="67" weight="1"/>
+      <edge id="239" source="124" target="67" weight="1"/>
+      <edge id="240" source="164" target="67" weight="1"/>
+      <edge id="241" source="23" target="67" weight="1"/>
+      <edge id="242" source="194" target="67" weight="1"/>
+      <edge id="243" source="153" target="67" weight="1"/>
+      <edge id="244" source="9" target="67" weight="1"/>
+      <edge id="245" source="161" target="67" weight="1"/>
+      <edge id="246" source="183" target="67" weight="1"/>
+      <edge id="247" source="51" target="67" weight="1"/>
+      <edge id="248" source="106" target="67" weight="1"/>
+      <edge id="249" source="135" target="67" weight="1"/>
+      <edge id="250" source="107" target="67" weight="1"/>
+      <edge id="251" source="14" target="67" weight="1"/>
+      <edge id="252" source="38" target="67" weight="1"/>
+      <edge id="253" source="89" target="67" weight="1"/>
+      <edge id="254" source="114" target="67" weight="1"/>
+      <edge id="255" source="186" target="67" weight="1"/>
+      <edge id="256" source="45" target="67" weight="1"/>
+      <edge id="257" source="165" target="67" weight="1"/>
+      <edge id="258" source="196" target="67" weight="1"/>
+      <edge id="259" source="46" target="67" weight="1"/>
+      <edge id="260" source="147" target="67" weight="1"/>
+      <edge id="261" source="162" target="67" weight="1"/>
+      <edge id="262" source="111" target="67" weight="1"/>
+      <edge id="263" source="71" target="67" weight="1"/>
+      <edge id="264" source="6" target="67" weight="1"/>
+      <edge id="265" source="26" target="67" weight="1"/>
+      <edge id="266" source="94" target="67" weight="1"/>
+      <edge id="267" source="7" target="67" weight="1"/>
+      <edge id="268" source="160" target="67" weight="1"/>
+      <edge id="269" source="169" target="67" weight="1"/>
+      <edge id="270" source="105" target="67" weight="1"/>
+      <edge id="271" source="158" target="67" weight="1"/>
+      <edge id="272" source="166" target="67" weight="1"/>
+      <edge id="273" source="182" target="67" weight="1"/>
+      <edge id="274" source="134" target="67" weight="1"/>
+      <edge id="275" source="139" target="67" weight="1"/>
+      <edge id="276" source="83" target="67" weight="1"/>
+      <edge id="277" source="176" target="67" weight="1"/>
+      <edge id="278" source="43" target="67" weight="1"/>
+      <edge id="279" source="178" target="67" weight="1"/>
+      <edge id="280" source="190" target="67" weight="1"/>
+      <edge id="281" source="19" target="67" weight="1"/>
+      <edge id="282" source="174" target="67" weight="1"/>
+      <edge id="283" source="16" target="67" weight="1"/>
+      <edge id="284" source="120" target="67" weight="1"/>
+      <edge id="285" source="91" target="67" weight="1"/>
+      <edge id="286" source="59" target="67" weight="1"/>
+      <edge id="287" source="96" target="67" weight="1"/>
+      <edge id="288" source="121" target="67" weight="1"/>
+      <edge id="289" source="98" target="67" weight="1"/>
+      <edge id="290" source="145" target="67" weight="1"/>
+      <edge id="291" source="73" target="67" weight="1"/>
+      <edge id="292" source="57" target="67" weight="1"/>
+      <edge id="293" source="95" target="67" weight="1"/>
+      <edge id="294" source="25" target="67" weight="1"/>
+      <edge id="295" source="103" target="67" weight="1"/>
+      <edge id="296" source="90" target="67" weight="1"/>
+      <edge id="297" source="168" target="67" weight="1"/>
+      <edge id="298" source="156" target="67" weight="1"/>
+      <edge id="299" source="150" target="67" weight="1"/>
+      <edge id="300" source="137" target="67" weight="1"/>
+      <edge id="301" source="199" target="67" weight="1"/>
+      <edge id="302" source="191" target="67" weight="1"/>
+      <edge id="303" source="198" target="67" weight="1"/>
+      <edge id="304" source="10" target="69" weight="1"/>
+      <edge id="305" source="22" target="72" weight="1"/>
+      <edge id="306" source="20" target="74" weight="1"/>
+      <edge id="307" source="69" target="76" weight="1"/>
+      <edge id="308" source="192" target="76" weight="1"/>
+      <edge id="309" source="8" target="80" weight="2"/>
+      <edge id="310" source="27" target="80" weight="5"/>
+      <edge id="311" source="39" target="80" weight="2"/>
+      <edge id="312" source="28" target="80" weight="4"/>
+      <edge id="313" source="21" target="81" weight="1"/>
+      <edge id="314" source="160" target="86" weight="1"/>
+      <edge id="315" source="59" target="86" weight="1"/>
+      <edge id="316" source="132" target="89" weight="1"/>
+      <edge id="317" source="42" target="89" weight="1"/>
+      <edge id="318" source="157" target="89" weight="1"/>
+      <edge id="319" source="13" target="89" weight="1"/>
+      <edge id="320" source="199" target="89" weight="1"/>
+      <edge id="321" source="19" target="89" weight="1"/>
+      <edge id="322" source="162" target="97" weight="1"/>
+      <edge id="323" source="176" target="97" weight="1"/>
+      <edge id="324" source="87" target="97" weight="1"/>
+      <edge id="325" source="149" target="97" weight="1"/>
+      <edge id="326" source="157" target="97" weight="1"/>
+      <edge id="327" source="127" target="97" weight="1"/>
+      <edge id="328" source="55" target="97" weight="1"/>
+      <edge id="329" source="62" target="97" weight="1"/>
+      <edge id="330" source="59" target="97" weight="1"/>
+      <edge id="331" source="73" target="97" weight="2"/>
+      <edge id="332" source="104" target="97" weight="1"/>
+      <edge id="333" source="186" target="97" weight="3"/>
+      <edge id="334" source="72" target="97" weight="1"/>
+      <edge id="335" source="114" target="97" weight="2"/>
+      <edge id="336" source="25" target="97" weight="1"/>
+      <edge id="337" source="19" target="97" weight="1"/>
+      <edge id="338" source="124" target="97" weight="4"/>
+      <edge id="339" source="50" target="99" weight="1"/>
+      <edge id="340" source="114" target="100" weight="1"/>
+      <edge id="341" source="187" target="102" weight="12"/>
+      <edge id="342" source="110" target="102" weight="4"/>
+      <edge id="343" source="69" target="102" weight="4"/>
+      <edge id="344" source="125" target="102" weight="4"/>
+      <edge id="345" source="15" target="102" weight="4"/>
+      <edge id="346" source="136" target="102" weight="4"/>
+      <edge id="347" source="128" target="102" weight="2"/>
+      <edge id="348" source="53" target="102" weight="10"/>
+      <edge id="349" source="171" target="102" weight="2"/>
+      <edge id="350" source="12" target="102" weight="2"/>
+      <edge id="351" source="70" target="102" weight="3"/>
+      <edge id="352" source="35" target="102" weight="2"/>
+      <edge id="353" source="10" target="102" weight="4"/>
+      <edge id="354" source="29" target="102" weight="12"/>
+      <edge id="355" source="163" target="102" weight="2"/>
+      <edge id="356" source="2" target="102" weight="2"/>
+      <edge id="357" source="76" target="102" weight="6"/>
+      <edge id="358" source="77" target="102" weight="3"/>
+      <edge id="359" source="192" target="102" weight="4"/>
+      <edge id="360" source="82" target="102" weight="2"/>
+      <edge id="361" source="118" target="102" weight="3"/>
+      <edge id="362" source="148" target="102" weight="4"/>
+      <edge id="363" source="185" target="102" weight="3"/>
+      <edge id="364" source="18" target="102" weight="12"/>
+      <edge id="365" source="88" target="102" weight="4"/>
+      <edge id="366" source="193" target="102" weight="3"/>
+      <edge id="367" source="32" target="102" weight="7"/>
+      <edge id="368" source="129" target="102" weight="2"/>
+      <edge id="369" source="158" target="103" weight="1"/>
+      <edge id="370" source="6" target="103" weight="1"/>
+      <edge id="371" source="98" target="103" weight="1"/>
+      <edge id="372" source="72" target="103" weight="1"/>
+      <edge id="373" source="121" target="103" weight="1"/>
+      <edge id="374" source="107" target="103" weight="1"/>
+      <edge id="375" source="132" target="103" weight="1"/>
+      <edge id="376" source="66" target="103" weight="1"/>
+      <edge id="377" source="59" target="107" weight="1"/>
+      <edge id="378" source="52" target="108" weight="1"/>
+      <edge id="379" source="13" target="108" weight="1"/>
+      <edge id="380" source="151" target="108" weight="1"/>
+      <edge id="381" source="72" target="108" weight="3"/>
+      <edge id="382" source="153" target="108" weight="1"/>
+      <edge id="383" source="160" target="108" weight="1"/>
+      <edge id="384" source="69" target="110" weight="1"/>
+      <edge id="385" source="93" target="111" weight="1"/>
+      <edge id="386" source="72" target="111" weight="1"/>
+      <edge id="387" source="151" target="111" weight="1"/>
+      <edge id="388" source="67" target="111" weight="1"/>
+      <edge id="389" source="108" target="111" weight="3"/>
+      <edge id="390" source="26" target="111" weight="2"/>
+      <edge id="391" source="120" target="111" weight="1"/>
+      <edge id="392" source="79" target="111" weight="1"/>
+      <edge id="393" source="160" target="111" weight="1"/>
+      <edge id="394" source="22" target="111" weight="1"/>
+      <edge id="395" source="125" target="114" weight="1"/>
+      <edge id="396" source="142" target="114" weight="1"/>
+      <edge id="397" source="174" target="114" weight="1"/>
+      <edge id="398" source="133" target="114" weight="1"/>
+      <edge id="399" source="75" target="114" weight="1"/>
+      <edge id="400" source="95" target="114" weight="1"/>
+      <edge id="401" source="148" target="125" weight="1"/>
+      <edge id="402" source="4" target="130" weight="2"/>
+      <edge id="403" source="138" target="133" weight="1"/>
+      <edge id="404" source="47" target="133" weight="1"/>
+      <edge id="405" source="175" target="133" weight="1"/>
+      <edge id="406" source="99" target="133" weight="1"/>
+      <edge id="407" source="188" target="133" weight="1"/>
+      <edge id="408" source="33" target="133" weight="1"/>
+      <edge id="409" source="64" target="133" weight="1"/>
+      <edge id="410" source="85" target="133" weight="1"/>
+      <edge id="411" source="74" target="133" weight="1"/>
+      <edge id="412" source="72" target="135" weight="1"/>
+      <edge id="413" source="157" target="135" weight="1"/>
+      <edge id="414" source="123" target="139" weight="1"/>
+      <edge id="415" source="93" target="139" weight="1"/>
+      <edge id="416" source="60" target="139" weight="1"/>
+      <edge id="417" source="97" target="139" weight="1"/>
+      <edge id="418" source="24" target="139" weight="1"/>
+      <edge id="419" source="13" target="139" weight="1"/>
+      <edge id="420" source="86" target="139" weight="1"/>
+      <edge id="421" source="159" target="139" weight="1"/>
+      <edge id="422" source="144" target="139" weight="1"/>
+      <edge id="423" source="117" target="139" weight="1"/>
+      <edge id="424" source="17" target="139" weight="1"/>
+      <edge id="425" source="191" target="139" weight="1"/>
+      <edge id="426" source="122" target="139" weight="1"/>
+      <edge id="427" source="135" target="139" weight="1"/>
+      <edge id="428" source="189" target="139" weight="1"/>
+      <edge id="429" source="198" target="139" weight="1"/>
+      <edge id="430" source="65" target="139" weight="1"/>
+      <edge id="431" source="142" target="139" weight="1"/>
+      <edge id="432" source="11" target="139" weight="1"/>
+      <edge id="433" source="180" target="139" weight="1"/>
+      <edge id="434" source="63" target="139" weight="1"/>
+      <edge id="435" source="75" target="139" weight="1"/>
+      <edge id="436" source="101" target="139" weight="1"/>
+      <edge id="437" source="121" target="139" weight="1"/>
+      <edge id="438" source="126" target="139" weight="1"/>
+      <edge id="439" source="111" target="139" weight="1"/>
+      <edge id="440" source="55" target="139" weight="1"/>
+      <edge id="441" source="140" target="139" weight="1"/>
+      <edge id="442" source="3" target="139" weight="1"/>
+      <edge id="443" source="119" target="139" weight="1"/>
+      <edge id="444" source="48" target="139" weight="1"/>
+      <edge id="445" source="114" target="139" weight="1"/>
+      <edge id="446" source="170" target="139" weight="1"/>
+      <edge id="447" source="100" target="139" weight="1"/>
+      <edge id="448" source="116" target="139" weight="1"/>
+      <edge id="449" source="182" target="139" weight="1"/>
+      <edge id="450" source="5" target="139" weight="1"/>
+      <edge id="451" source="197" target="139" weight="1"/>
+      <edge id="452" source="184" target="139" weight="1"/>
+      <edge id="453" source="107" target="139" weight="1"/>
+      <edge id="454" source="92" target="139" weight="1"/>
+      <edge id="455" source="19" target="139" weight="1"/>
+      <edge id="456" source="26" target="139" weight="1"/>
+      <edge id="457" source="38" target="139" weight="1"/>
+      <edge id="458" source="132" target="139" weight="1"/>
+      <edge id="459" source="124" target="139" weight="1"/>
+      <edge id="460" source="45" target="139" weight="1"/>
+      <edge id="461" source="72" target="139" weight="1"/>
+      <edge id="462" source="91" target="139" weight="1"/>
+      <edge id="463" source="96" target="139" weight="1"/>
+      <edge id="464" source="59" target="139" weight="1"/>
+      <edge id="465" source="71" target="139" weight="1"/>
+      <edge id="466" source="176" target="139" weight="1"/>
+      <edge id="467" source="52" target="139" weight="1"/>
+      <edge id="468" source="84" target="139" weight="1"/>
+      <edge id="469" source="73" target="139" weight="1"/>
+      <edge id="470" source="57" target="139" weight="1"/>
+      <edge id="471" source="23" target="139" weight="1"/>
+      <edge id="472" source="164" target="139" weight="1"/>
+      <edge id="473" source="194" target="139" weight="1"/>
+      <edge id="474" source="165" target="139" weight="1"/>
+      <edge id="475" source="49" target="139" weight="1"/>
+      <edge id="476" source="16" target="139" weight="1"/>
+      <edge id="477" source="67" target="139" weight="1"/>
+      <edge id="478" source="25" target="139" weight="1"/>
+      <edge id="479" source="154" target="139" weight="1"/>
+      <edge id="480" source="68" target="139" weight="1"/>
+      <edge id="481" source="21" target="139" weight="1"/>
+      <edge id="482" source="145" target="139" weight="1"/>
+      <edge id="483" source="14" target="139" weight="1"/>
+      <edge id="484" source="98" target="139" weight="1"/>
+      <edge id="485" source="186" target="139" weight="1"/>
+      <edge id="486" source="7" target="139" weight="1"/>
+      <edge id="487" source="104" target="139" weight="1"/>
+      <edge id="488" source="166" target="139" weight="1"/>
+      <edge id="489" source="120" target="139" weight="1"/>
+      <edge id="490" source="9" target="139" weight="1"/>
+      <edge id="491" source="183" target="139" weight="1"/>
+      <edge id="492" source="134" target="139" weight="1"/>
+      <edge id="493" source="79" target="139" weight="1"/>
+      <edge id="494" source="147" target="139" weight="1"/>
+      <edge id="495" source="174" target="139" weight="1"/>
+      <edge id="496" source="127" target="139" weight="1"/>
+      <edge id="497" source="146" target="139" weight="1"/>
+      <edge id="498" source="94" target="139" weight="1"/>
+      <edge id="499" source="150" target="139" weight="1"/>
+      <edge id="500" source="137" target="139" weight="1"/>
+      <edge id="501" source="157" target="139" weight="1"/>
+      <edge id="502" source="149" target="139" weight="1"/>
+      <edge id="503" source="105" target="139" weight="1"/>
+      <edge id="504" source="46" target="139" weight="1"/>
+      <edge id="505" source="83" target="139" weight="1"/>
+      <edge id="506" source="87" target="139" weight="1"/>
+      <edge id="507" source="195" target="139" weight="1"/>
+      <edge id="508" source="141" target="139" weight="1"/>
+      <edge id="509" source="168" target="139" weight="1"/>
+      <edge id="510" source="34" target="139" weight="1"/>
+      <edge id="511" source="143" target="139" weight="1"/>
+      <edge id="512" source="66" target="139" weight="1"/>
+      <edge id="513" source="152" target="139" weight="1"/>
+      <edge id="514" source="199" target="139" weight="1"/>
+      <edge id="515" source="158" target="139" weight="1"/>
+      <edge id="516" source="169" target="139" weight="1"/>
+      <edge id="517" source="153" target="139" weight="1"/>
+      <edge id="518" source="41" target="139" weight="1"/>
+      <edge id="519" source="151" target="139" weight="1"/>
+      <edge id="520" source="95" target="139" weight="1"/>
+      <edge id="521" source="89" target="139" weight="1"/>
+      <edge id="522" source="167" target="139" weight="1"/>
+      <edge id="523" source="178" target="139" weight="1"/>
+      <edge id="524" source="161" target="139" weight="1"/>
+      <edge id="525" source="90" target="139" weight="1"/>
+      <edge id="526" source="103" target="139" weight="1"/>
+      <edge id="527" source="106" target="139" weight="1"/>
+      <edge id="528" source="162" target="139" weight="1"/>
+      <edge id="529" source="44" target="139" weight="1"/>
+      <edge id="530" source="31" target="139" weight="1"/>
+      <edge id="531" source="190" target="139" weight="1"/>
+      <edge id="532" source="22" target="139" weight="1"/>
+      <edge id="533" source="196" target="139" weight="1"/>
+      <edge id="534" source="108" target="139" weight="1"/>
+      <edge id="535" source="160" target="139" weight="1"/>
+      <edge id="536" source="51" target="139" weight="1"/>
+      <edge id="537" source="131" target="139" weight="1"/>
+      <edge id="538" source="62" target="139" weight="1"/>
+      <edge id="539" source="43" target="139" weight="1"/>
+      <edge id="540" source="156" target="139" weight="1"/>
+      <edge id="541" source="81" target="139" weight="1"/>
+      <edge id="542" source="78" target="139" weight="1"/>
+      <edge id="543" source="6" target="139" weight="1"/>
+      <edge id="544" source="26" target="147" weight="1"/>
+      <edge id="545" source="70" target="148" weight="1"/>
+      <edge id="546" source="88" target="148" weight="1"/>
+      <edge id="547" source="128" target="148" weight="1"/>
+      <edge id="548" source="136" target="148" weight="1"/>
+      <edge id="549" source="125" target="148" weight="1"/>
+      <edge id="550" source="171" target="148" weight="1"/>
+      <edge id="551" source="129" target="148" weight="1"/>
+      <edge id="552" source="77" target="148" weight="1"/>
+      <edge id="553" source="32" target="148" weight="1"/>
+      <edge id="554" source="102" target="148" weight="1"/>
+      <edge id="555" source="82" target="148" weight="1"/>
+      <edge id="556" source="29" target="148" weight="1"/>
+      <edge id="557" source="69" target="148" weight="1"/>
+      <edge id="558" source="187" target="148" weight="1"/>
+      <edge id="559" source="10" target="148" weight="1"/>
+      <edge id="560" source="15" target="148" weight="1"/>
+      <edge id="561" source="192" target="148" weight="1"/>
+      <edge id="562" source="163" target="148" weight="1"/>
+      <edge id="563" source="12" target="148" weight="1"/>
+      <edge id="564" source="35" target="148" weight="1"/>
+      <edge id="565" source="53" target="148" weight="1"/>
+      <edge id="566" source="110" target="148" weight="1"/>
+      <edge id="567" source="193" target="148" weight="1"/>
+      <edge id="568" source="2" target="148" weight="1"/>
+      <edge id="569" source="76" target="148" weight="1"/>
+      <edge id="570" source="118" target="148" weight="1"/>
+      <edge id="571" source="185" target="148" weight="1"/>
+      <edge id="572" source="18" target="148" weight="1"/>
+      <edge id="573" source="72" target="152" weight="1"/>
+      <edge id="574" source="38" target="152" weight="1"/>
+      <edge id="575" source="59" target="160" weight="1"/>
+      <edge id="576" source="131" target="167" weight="1"/>
+      <edge id="577" source="177" target="172" weight="1"/>
+      <edge id="578" source="1" target="172" weight="1"/>
+      <edge id="579" source="47" target="175" weight="1"/>
+      <edge id="580" source="133" target="175" weight="1"/>
+      <edge id="581" source="20" target="175" weight="1"/>
+      <edge id="582" source="85" target="175" weight="1"/>
+      <edge id="583" source="37" target="175" weight="1"/>
+      <edge id="584" source="64" target="175" weight="1"/>
+      <edge id="585" source="155" target="179" weight="1"/>
+      <edge id="586" source="84" target="180" weight="1"/>
+      <edge id="587" source="197" target="180" weight="1"/>
+      <edge id="588" source="42" target="180" weight="1"/>
+      <edge id="589" source="87" target="180" weight="1"/>
+      <edge id="590" source="89" target="180" weight="1"/>
+      <edge id="591" source="62" target="180" weight="1"/>
+      <edge id="592" source="97" target="180" weight="1"/>
+      <edge id="593" source="158" target="180" weight="1"/>
+      <edge id="594" source="59" target="180" weight="1"/>
+      <edge id="595" source="72" target="180" weight="1"/>
+      <edge id="596" source="73" target="180" weight="1"/>
+      <edge id="597" source="143" target="180" weight="1"/>
+      <edge id="598" source="55" target="180" weight="1"/>
+      <edge id="599" source="150" target="180" weight="1"/>
+      <edge id="600" source="54" target="181" weight="1"/>
+      <edge id="601" source="36" target="181" weight="1"/>
+      <edge id="602" source="47" target="181" weight="1"/>
+      <edge id="603" source="76" target="185" weight="4"/>
+      <edge id="604" source="192" target="185" weight="3"/>
+      <edge id="605" source="148" target="187" weight="1"/>
+      <edge id="606" source="110" target="187" weight="1"/>
+      <edge id="607" source="69" target="187" weight="1"/>
+      <edge id="608" source="161" target="197" weight="2"/>
+      <edge id="609" source="143" target="197" weight="3"/>
+      <edge id="610" source="96" target="197" weight="3"/>
+      <edge id="611" source="139" target="197" weight="2"/>
+      <edge id="612" source="126" target="197" weight="2"/>
+      <edge id="613" source="116" target="197" weight="2"/>
+      <edge id="614" source="153" target="197" weight="3"/>
+      <edge id="615" source="62" target="197" weight="3"/>
+      <edge id="616" source="94" target="197" weight="2"/>
+      <edge id="617" source="25" target="197" weight="3"/>
+      <edge id="618" source="145" target="197" weight="2"/>
+      <edge id="619" source="73" target="197" weight="3"/>
+      <edge id="620" source="14" target="197" weight="2"/>
+      <edge id="621" source="84" target="197" weight="2"/>
+      <edge id="622" source="7" target="197" weight="3"/>
+      <edge id="623" source="173" target="200" weight="1"/>
+    </edges>
+  </graph>
+</gexf>
+

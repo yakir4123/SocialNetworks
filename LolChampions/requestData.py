@@ -43,11 +43,11 @@ async def getRecentMatches(accountId):
 
 if __name__ == '__main__':
 
-    api_key = "RGAPI-e2430715-81a6-4804-a795-fd4138a9c123"
+    api_key = "RGAPI-27d296f7-2d1a-49cc-bdb8-3c55158c3145"
     server = 'eun1'
 
     # 2901 to 2925 top players
-    names = ['venenat', 'Azure', 'Phoenix', 'Elvis the lord', 'Nutcracko', 'Simmek', 'CraKed', 'CLS Bennedict', 'ZUZA DJ ARBUZA', 'Radu334', 'Szklarzu', 'LeBlancVanHelsin', 'I Dont Need Her', 'MasterGTPL', 'Krajan02', 'MarcinKMWTW', 'im smiling big', 'Kendal is Tottie', 'Konors', 'Caroline', 'Koku', 'Darkwarrior45', 'mercifull bullet', 'sysqrw']
+    names = ['gXJason', 'Teh', 'CuteEGrillCheese', 'Aira', 'LuzíkArbuzìk', 'LayxZyx', 'Waszk', 'Zëref', 'CofiKiller23', 'Fittamunden', 'Everything Ends', 'RaekH', 'Retso', 'Indecisiveness', 'Sufleks', 'The True Adrian', 'Crimson Behelit']
     match_num = 100
 
     panth = pantheon.Pantheon(server, api_key, errorHandling=True, requestsLoggingFunction=requestsLog, debug=True)
