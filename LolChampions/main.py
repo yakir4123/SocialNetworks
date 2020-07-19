@@ -43,24 +43,27 @@ def generate_champions_graph(matches_files_names: typing.Iterable[str], th: int)
         for file_name in matches_files_names:
             bar()
             with open(f'matches{os.sep}{file_name}', "r") as f:
-                for match in json.load(f):
-                    if match['gameId'] in visited_matches:
-                        continue
-                    visited_matches.append(match['gameId'])
-                    win_cid = []
-                    loss_cid = []
-                    for participant in match["participants"]:
-                        try:
-                            if participant['stats']['win']:
-                                win_cid.append(participant['championId'])
-                            else:
-                                loss_cid.append(participant['championId'])
-                        except KeyError:
-                            # In cases that the data is missing
-                            pass
+                try:
+                    for match in json.load(f):
+                        if match['gameId'] in visited_matches:
+                            continue
+                        visited_matches.append(match['gameId'])
+                        win_cid = []
+                        loss_cid = []
+                        for participant in match["participants"]:
+                            try:
+                                if participant['stats']['win']:
+                                    win_cid.append(participant['championId'])
+                                else:
+                                    loss_cid.append(participant['championId'])
+                            except KeyError:
+                                # In cases that the data is missing
+                                pass
 
-                    add_edges(champions_graph, win_cid, 1)
-                    add_edges(champions_graph, loss_cid, -1)
+                        add_edges(champions_graph, win_cid, 1)
+                        add_edges(champions_graph, loss_cid, -1)
+                except (UnicodeDecodeError, json.decoder.JSONDecodeError):
+                    continue
 
     # remove self loops
     champions_graph.remove_edges_from(nx.selfloop_edges(champions_graph))
@@ -121,7 +124,7 @@ def regenerate_graph(th: int, verbose=False):
 
 if __name__ == '__main__':
 
-    for th in [5, 10]:
+    for th in [0]:
         # Create features
         feature_extractor = ff.FeatureExtractor()
 
