@@ -1,4 +1,4 @@
 LolChampions/.idea
 LolChampions/outputs/*
-LolChampions/matches/*
+LolChampions/matches/*.json
 __pycache__
