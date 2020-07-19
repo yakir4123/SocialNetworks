@@ -1,7 +1,9 @@
 import os
+import re
 import json
-import asyncio
 import time
+import asyncio
+import requests
 
 from pantheon import pantheon
 from alive_progress import alive_bar
@@ -41,13 +43,21 @@ async def getRecentMatches(accountId):
         print(e)
 
 
+def get_names(page):
+    test_str = requests.get(f'https://eune.op.gg/ranking/ladder/page={page}').text
+    test_sub = "userName"
+    res = [i.start() for i in re.finditer(test_sub, test_str)][1:]
+    all_names = [test_str[index + 9: index + 9 + test_str[index + 9:index + 100].find('"')] for index in res]
+    return [name.replace("+", " ") for name in all_names]
+
+
 if __name__ == '__main__':
 
-    api_key = "RGAPI-27d296f7-2d1a-49cc-bdb8-3c55158c3145"
+    api_key = "RGAPI-9203fec0-368f-4ff7-9ef1-e2c745d5aa08"
     server = 'eun1'
+    ranking_page = 104
 
-    # 2901 to 2925 top players
-    names = ['gXJason', 'Teh', 'CuteEGrillCheese', 'Aira', 'LuzíkArbuzìk', 'LayxZyx', 'Waszk', 'Zëref', 'CofiKiller23', 'Fittamunden', 'Everything Ends', 'RaekH', 'Retso', 'Indecisiveness', 'Sufleks', 'The True Adrian', 'Crimson Behelit']
+    names = get_names(ranking_page)
     match_num = 100
 
     panth = pantheon.Pantheon(server, api_key, errorHandling=True, requestsLoggingFunction=requestsLog, debug=True)
