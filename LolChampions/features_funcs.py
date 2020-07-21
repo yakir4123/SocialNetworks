@@ -81,6 +81,12 @@ class FeatureExtractor:
         return self.G[u][v]['weight'] / self.G[u][v]['matches']
         pass
 
+    def lane(self, u):
+        return self.G.nodes[u]['role']
+
+    def role(self, u):
+        return self.G.nodes[u]['lane']
+
 
 def edge_as_key(u, v):
     return (u, v) if u < v else (v, u)
